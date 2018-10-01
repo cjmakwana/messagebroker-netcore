@@ -18,7 +18,7 @@ namespace MessageBroker
             }
         }
 
-        public bool IsPersistent => true;
+        public bool IsPersistent => false;
 
         private MessageBrokerImpl()
         {
