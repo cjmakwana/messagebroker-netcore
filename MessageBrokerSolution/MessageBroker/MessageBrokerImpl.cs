@@ -66,5 +66,11 @@ namespace MessageBroker
         {
             _subscribers?.Clear();
         }
+
+        public bool Persist()
+        {
+            // I will write code to persist all the subscribers.
+            return true;
+        }
     }
 }
